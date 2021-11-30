@@ -4,7 +4,7 @@
 
 ## 介绍
 
-采用MAX30001进行生物阻抗和ECG测量，经由Micropython（ESP32）传输至PC并绘制肺阻抗图像。
+采用MAX30001进行生物阻抗和ECG测量，经由Micropython（ESP32）传输至PC并绘图。
 
 Micropython开发平台使用01Studio的ESP32P，参考文档及例程见：
   - https://docs.01studio.cc/esp32/quickref.html

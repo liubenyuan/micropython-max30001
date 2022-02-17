@@ -16,7 +16,7 @@ def bytes2short(d):
     vref = 1.0
     bioz_cmag = 32e-6
     bioz_gain = 10
-    bioz = bioz_adc * vref / (2 ** 19 * bioz_cmag * bioz_gain)
+    bioz = bioz_adc * vref / (2**19 * bioz_cmag * bioz_gain)
     return bioz, btal
 
 
